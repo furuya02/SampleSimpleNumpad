@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB40CB997F710BD674E227DFB8286CF /* IDPNumpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C66DEB2654E72E397CA1B3C832A02FF /* IDPNumpadViewController.m */; };
+		18625884527DD480CA9F2D1F35B6D6CE /* EasyEaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CDB9BE70814C9760860C7C72B0BB4C /* EasyEaseAnimation.m */; };
+		3179CB560A1A9B757D7FA167E23E73C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA543CD82F167876D62A6308BBB9365 /* Foundation.framework */; };
+		4AAD999EE74099470EE063E6173EA658 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F3BF6A80D17575FE578A37C1188B62 /* QuartzCore.framework */; };
+		5C57200931F4CA4926F3C54F1A4F855F /* EasyEaseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B91D781A962B2DA0F728F7973FBF743E /* EasyEaseAnimation.h */; };
+		60CE3E1BF8969CA46CFA6018DA5F208E /* IDPSNStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 988AC84848405866291C2A31CED9885F /* IDPSNStyleKit.h */; };
+		65197D740252FAC2B02188E89E88CD73 /* IDPNumpadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E7C5F0E91FD6F5587335E3830DB03 /* IDPNumpadView.m */; };
+		6DF6C063E4577A5C290D869384CB2A97 /* IDPNumpadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 440BC8F75476BF2547E6ADB2F3818692 /* IDPNumpadView.h */; };
+		8621E610CBA8F2C9B7FF908F53025CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA543CD82F167876D62A6308BBB9365 /* Foundation.framework */; };
+		9436627DCCC3154AAE9B40C51E54E9E7 /* IDPSNStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47C84DC00F6A490420AE1A7E909562 /* IDPSNStyleKit.m */; };
+		9515A586A0FE67623B10DC2077DDF06E /* SimpleNumpad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A10B011C717E1787417FE2F49F9243 /* SimpleNumpad-dummy.m */; };
+		A6B19FCED8EAEBA3C1D9784BE27F348B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F4D00C40E444F1514FD54517530B70 /* Pods-dummy.m */; };
+		A854740A53E759C7BD7E8F82C8420370 /* IDPNumpadViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 662FB5152A992B1A086EB59CE16C2F73 /* IDPNumpadViewController.h */; };
+		B6E367BD1DC3FDCD591509240B0EECB2 /* SimpleNumpad.h in Headers */ = {isa = PBXBuildFile; fileRef = A0CF06C5F107F301A9708F62FEA08B1F /* SimpleNumpad.h */; };
+		C4419CB3E9324C3D743B121C926BE4BE /* IDPNumberDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B0A2DA2F84683329CE9B59BB3F8A2A /* IDPNumberDisplay.h */; };
+		E0C7C42B42017E2199EF90D3AB537828 /* IDPNumberDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D39F0D762F1867F510A366269D1CE7E /* IDPNumberDisplay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		662926B31BD51D6B6BAF9B5F83A56C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47BB75AAC144225E5DA3E67A85C703A9;
+			remoteInfo = SimpleNumpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0166CFCD6554B26531760D845598310B /* SimpleNumpad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleNumpad.xcconfig; sourceTree = "<group>"; };
+		05B0A2DA2F84683329CE9B59BB3F8A2A /* IDPNumberDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPNumberDisplay.h; path = Lib/IDPNumberDisplay.h; sourceTree = "<group>"; };
+		077E83A1932C60ECBFB910D653F3E0CA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		0A4E7C5F0E91FD6F5587335E3830DB03 /* IDPNumpadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPNumpadView.m; path = Lib/IDPNumpadView.m; sourceTree = "<group>"; };
+		0E222500AD06B01603E74CB3FA9F983F /* SimpleNumpad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleNumpad-prefix.pch"; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2455FF161D1B2F27E4D7304EDA3CC770 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A10B011C717E1787417FE2F49F9243 /* SimpleNumpad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleNumpad-dummy.m"; sourceTree = "<group>"; };
+		2D39F0D762F1867F510A366269D1CE7E /* IDPNumberDisplay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPNumberDisplay.m; path = Lib/IDPNumberDisplay.m; sourceTree = "<group>"; };
+		362DBFA1C30CB8BF3E23D7B22D669ECB /* IDPNumpadViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = IDPNumpadViewController.storyboard; path = Lib/IDPNumpadViewController.storyboard; sourceTree = "<group>"; };
+		3C66DEB2654E72E397CA1B3C832A02FF /* IDPNumpadViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPNumpadViewController.m; path = Lib/IDPNumpadViewController.m; sourceTree = "<group>"; };
+		440BC8F75476BF2547E6ADB2F3818692 /* IDPNumpadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPNumpadView.h; path = Lib/IDPNumpadView.h; sourceTree = "<group>"; };
+		4C47C84DC00F6A490420AE1A7E909562 /* IDPSNStyleKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDPSNStyleKit.m; path = Lib/IDPSNStyleKit.m; sourceTree = "<group>"; };
+		5EA543CD82F167876D62A6308BBB9365 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63F3BF6A80D17575FE578A37C1188B62 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		662FB5152A992B1A086EB59CE16C2F73 /* IDPNumpadViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPNumpadViewController.h; path = Lib/IDPNumpadViewController.h; sourceTree = "<group>"; };
+		94BEA08360CCCFC22B506DEE70193D34 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		988AC84848405866291C2A31CED9885F /* IDPSNStyleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDPSNStyleKit.h; path = Lib/IDPSNStyleKit.h; sourceTree = "<group>"; };
+		A0CF06C5F107F301A9708F62FEA08B1F /* SimpleNumpad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleNumpad.h; path = Lib/SimpleNumpad.h; sourceTree = "<group>"; };
+		B91D781A962B2DA0F728F7973FBF743E /* EasyEaseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyEaseAnimation.h; path = Lib/EasyEaseAnimation.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		E053C200AC0BB414AD120CF8B1C449F3 /* libSimpleNumpad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleNumpad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60EED747AD3CF9538E104B55797CB2F /* SimpleNumpad-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SimpleNumpad-Private.xcconfig"; sourceTree = "<group>"; };
+		F2F4D00C40E444F1514FD54517530B70 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		F7CDB9BE70814C9760860C7C72B0BB4C /* EasyEaseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EasyEaseAnimation.m; path = Lib/EasyEaseAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D2F872D5B3D7CC449A4C91C6CB68A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3179CB560A1A9B757D7FA167E23E73C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E9AE911F173AF08F2E07C81488A09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8621E610CBA8F2C9B7FF908F53025CB5 /* Foundation.framework in Frameworks */,
+				4AAD999EE74099470EE063E6173EA658 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC04B06EEF8A155D545C321FDCC389 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5EA543CD82F167876D62A6308BBB9365 /* Foundation.framework */,
+				63F3BF6A80D17575FE578A37C1188B62 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0AC8FBCEEA9131AF30F462E5EF6A2915 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				362DBFA1C30CB8BF3E23D7B22D669ECB /* IDPNumpadViewController.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		39F7179EABEAF78BF577E25D22B45A40 /* SimpleNumpad */ = {
+			isa = PBXGroup;
+			children = (
+				B91D781A962B2DA0F728F7973FBF743E /* EasyEaseAnimation.h */,
+				F7CDB9BE70814C9760860C7C72B0BB4C /* EasyEaseAnimation.m */,
+				05B0A2DA2F84683329CE9B59BB3F8A2A /* IDPNumberDisplay.h */,
+				2D39F0D762F1867F510A366269D1CE7E /* IDPNumberDisplay.m */,
+				440BC8F75476BF2547E6ADB2F3818692 /* IDPNumpadView.h */,
+				0A4E7C5F0E91FD6F5587335E3830DB03 /* IDPNumpadView.m */,
+				662FB5152A992B1A086EB59CE16C2F73 /* IDPNumpadViewController.h */,
+				3C66DEB2654E72E397CA1B3C832A02FF /* IDPNumpadViewController.m */,
+				988AC84848405866291C2A31CED9885F /* IDPSNStyleKit.h */,
+				4C47C84DC00F6A490420AE1A7E909562 /* IDPSNStyleKit.m */,
+				A0CF06C5F107F301A9708F62FEA08B1F /* SimpleNumpad.h */,
+				0AC8FBCEEA9131AF30F462E5EF6A2915 /* Resources */,
+				81379F7AC53CBBDE5069B7D8FC34C6B8 /* Support Files */,
+			);
+			path = SimpleNumpad;
+			sourceTree = "<group>";
+		};
+		4179EF324BDE0127758440F684901780 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F7179EABEAF78BF577E25D22B45A40 /* SimpleNumpad */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FC04B06EEF8A155D545C321FDCC389 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4179EF324BDE0127758440F684901780 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81379F7AC53CBBDE5069B7D8FC34C6B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0166CFCD6554B26531760D845598310B /* SimpleNumpad.xcconfig */,
+				E60EED747AD3CF9538E104B55797CB2F /* SimpleNumpad-Private.xcconfig */,
+				27A10B011C717E1787417FE2F49F9243 /* SimpleNumpad-dummy.m */,
+				0E222500AD06B01603E74CB3FA9F983F /* SimpleNumpad-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleNumpad";
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				F2F4D00C40E444F1514FD54517530B70 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				94BEA08360CCCFC22B506DEE70193D34 /* Pods.debug.xcconfig */,
+				077E83A1932C60ECBFB910D653F3E0CA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2455FF161D1B2F27E4D7304EDA3CC770 /* libPods.a */,
+				E053C200AC0BB414AD120CF8B1C449F3 /* libSimpleNumpad.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E43D99ABD8E7EC5F32EF7DB1F290954C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C57200931F4CA4926F3C54F1A4F855F /* EasyEaseAnimation.h in Headers */,
+				C4419CB3E9324C3D743B121C926BE4BE /* IDPNumberDisplay.h in Headers */,
+				6DF6C063E4577A5C290D869384CB2A97 /* IDPNumpadView.h in Headers */,
+				A854740A53E759C7BD7E8F82C8420370 /* IDPNumpadViewController.h in Headers */,
+				60CE3E1BF8969CA46CFA6018DA5F208E /* IDPSNStyleKit.h in Headers */,
+				B6E367BD1DC3FDCD591509240B0EECB2 /* SimpleNumpad.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47BB75AAC144225E5DA3E67A85C703A9 /* SimpleNumpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744B788BFA00C0ED465F46B7B8347F96 /* Build configuration list for PBXNativeTarget "SimpleNumpad" */;
+			buildPhases = (
+				6ACD9879FC27393F7EF0676F2782C62D /* Sources */,
+				41E9AE911F173AF08F2E07C81488A09D /* Frameworks */,
+				E43D99ABD8E7EC5F32EF7DB1F290954C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleNumpad;
+			productName = SimpleNumpad;
+			productReference = E053C200AC0BB414AD120CF8B1C449F3 /* libSimpleNumpad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D656E86C14E34040AA9882BC5409290A /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24925202923D9BD528E035D1D92ABE3E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				F0D23DBFE8E2D267D8734E5A0BD2EAD5 /* Sources */,
+				3D2F872D5B3D7CC449A4C91C6CB68A8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CFD1A5A176C5EE25F13751BD58D7011 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 2455FF161D1B2F27E4D7304EDA3CC770 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D656E86C14E34040AA9882BC5409290A /* Pods */,
+				47BB75AAC144225E5DA3E67A85C703A9 /* SimpleNumpad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ACD9879FC27393F7EF0676F2782C62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18625884527DD480CA9F2D1F35B6D6CE /* EasyEaseAnimation.m in Sources */,
+				E0C7C42B42017E2199EF90D3AB537828 /* IDPNumberDisplay.m in Sources */,
+				65197D740252FAC2B02188E89E88CD73 /* IDPNumpadView.m in Sources */,
+				0EB40CB997F710BD674E227DFB8286CF /* IDPNumpadViewController.m in Sources */,
+				9436627DCCC3154AAE9B40C51E54E9E7 /* IDPSNStyleKit.m in Sources */,
+				9515A586A0FE67623B10DC2077DDF06E /* SimpleNumpad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D23DBFE8E2D267D8734E5A0BD2EAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B19FCED8EAEBA3C1D9784BE27F348B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CFD1A5A176C5EE25F13751BD58D7011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleNumpad;
+			target = 47BB75AAC144225E5DA3E67A85C703A9 /* SimpleNumpad */;
+			targetProxy = 662926B31BD51D6B6BAF9B5F83A56C7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A0DBECD4F61AF0820A72E0F0AF79EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077E83A1932C60ECBFB910D653F3E0CA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2AF876E5E073FBFF844AF5B42076C03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60EED747AD3CF9538E104B55797CB2F /* SimpleNumpad-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleNumpad/SimpleNumpad-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		31315D65419456EBE79CADBA919BECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BEA08360CCCFC22B506DEE70193D34 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB756C2D0280D72A7A806024249ED78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60EED747AD3CF9538E104B55797CB2F /* SimpleNumpad-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleNumpad/SimpleNumpad-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24925202923D9BD528E035D1D92ABE3E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31315D65419456EBE79CADBA919BECAD /* Debug */,
+				2A0DBECD4F61AF0820A72E0F0AF79EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744B788BFA00C0ED465F46B7B8347F96 /* Build configuration list for PBXNativeTarget "SimpleNumpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF876E5E073FBFF844AF5B42076C03C /* Debug */,
+				DB756C2D0280D72A7A806024249ED78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

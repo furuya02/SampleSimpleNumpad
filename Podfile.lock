@@ -1,0 +1,19 @@
+PODS:
+  - SimpleNumpad (0.4)
+
+DEPENDENCIES:
+  - SimpleNumpad (from `https://github.com/notoroid/SimpleNumpad.git`)
+
+EXTERNAL SOURCES:
+  SimpleNumpad:
+    :git: https://github.com/notoroid/SimpleNumpad.git
+
+CHECKOUT OPTIONS:
+  SimpleNumpad:
+    :commit: c3af00a2c101366dc9b4ec2831984917f3d79b8f
+    :git: https://github.com/notoroid/SimpleNumpad.git
+
+SPEC CHECKSUMS:
+  SimpleNumpad: 909fbb0ddd563a23a8b1cb970722e923065824de
+
+COCOAPODS: 0.38.2

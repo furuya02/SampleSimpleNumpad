@@ -1,0 +1,31 @@
+{
+  "name": "SimpleNumpad",
+  "version": "0.4",
+  "summary": "SimpleNumpad provides a simple Numpad to your app . iOS8 it will support later .",
+  "description": "                   SimpleNumpad provides a simple Numpad to your app . iOS8 it will support later . - SimpleNumpad は貴方のアプリにシンプルなNumpad を提供します。iOS8 以降をサポートします。 \n",
+  "homepage": "https://github.com/notoroid/SimpleNumpad",
+  "screenshots": [
+    "https://raw.githubusercontent.com/notoroid/SimpleNumpad/master/Screenshots/ss01.png",
+    "https://raw.githubusercontent.com/notoroid/SimpleNumpad/master/Screenshots/ss02.png",
+    "https://raw.githubusercontent.com/notoroid/SimpleNumpad/master/Screenshots/ss03.png"
+  ],
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "notoroid": "noto@irimasu.com"
+  },
+  "social_media_url": "http://twitter.com/notoroid",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/notoroid/SimpleNumpad.git",
+    "tag": "v0.4"
+  },
+  "source_files": "Lib/**/*.{h,m}",
+  "resources": "Lib/**/*.{storyboard,xib}",
+  "frameworks": "QuartzCore",
+  "requires_arc": true
+}
