@@ -17,11 +17,12 @@ class UINumField: UILabel , IDPNumpadViewControllerDelegate{
         }
     }
     // フォーカスがある時の背景色
-    @IBInspectable var onColor: UIColor = .clearColor() {
-        didSet{ //storyboardでリアルタイムに表示するため
-            backgroundColor = onColor
-        }
-    }
+    @IBInspectable var onColor: UIColor = .clearColor()
+//        {
+//        didSet{ //storyboardでリアルタイムに表示するため
+//            backgroundColor = onColor
+//        }
+//    }
     // 設定された値を読み取るためのプロパティ
     var value:CFloat {
         get{
@@ -39,6 +40,7 @@ class UINumField: UILabel , IDPNumpadViewControllerDelegate{
         // Labelがタッチイベントを受け取るように設定する
         userInteractionEnabled = true
 
+        backgroundColor = offColor
     }
 
     required init(coder aDecoder: NSCoder) {
@@ -74,6 +76,8 @@ class UINumField: UILabel , IDPNumpadViewControllerDelegate{
         parentViewController!.dismissViewControllerAnimated(true, completion: {})
         // ステータスを変更
         isBusy = false
+        // 背景色を変更
+        backgroundColor = offColor
     }
     
     
